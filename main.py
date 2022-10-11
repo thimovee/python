@@ -12,7 +12,7 @@ average = z/29
 print("\nAverage sales per team: " + str(average) + "\n")
 d = 1
 while d < 29:
-    d = d+1
     t = len(df[df['_SalesTeamID'] == (d)])
     if t < average:
         print("Sales team " + str(d) + " has below average sales")
+    d = d+1
