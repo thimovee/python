@@ -1,5 +1,5 @@
 import pandas as pd
-file_loc = "datavis\sales_data.xlsx"
+file_loc = "sales_data.xlsx"
 df = pd.read_excel(file_loc, index_col=None, na_values=['NA'], usecols=['_SalesTeamID'])
 x = 1
 z = 0
